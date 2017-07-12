@@ -6,7 +6,7 @@
 		{ 	
 			"assetId" : "leftEdge",
 			"midRollVideoTime" : -1,
-			"backgroundColor" : "#FFF",
+			"backgroundColor" : "#FFFFFF",
 			"isEmptyView" : false,
 			"isScrollView" : false,
 			"isInitialFocus" : false,
@@ -18,7 +18,7 @@
 		{ 	
 			"assetId" : "middleLeft",
 			"midRollVideoTime" : -1,
-			"backgroundColor" : "#FFF",
+			"backgroundColor" : "#FFFFFF",
 			"isEmptyView" : false,
 			"isScrollView" : false,
 			"isInitialFocus" : true,
@@ -30,7 +30,7 @@
 		{ 	
 			"assetId" : "middleRight",
 			"midRollVideoTime" : -1,
-			"backgroundColor" : "#FFF",
+			"backgroundColor" : "#FFFFFF",
 			"isEmptyView" : false,
 			"isScrollView" : false,
 			"isInitialFocus" : false,
@@ -42,7 +42,7 @@
 		{ 	
 			"assetId" : "rightEdge",
 			"midRollVideoTime" : -1,
-			"backgroundColor" : "#FFF",
+			"backgroundColor" : "#FFFFFF",
 			"isEmptyView" : false,
 			"isScrollView" : false,
 			"isInitialFocus" : false,
