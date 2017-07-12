@@ -1,0 +1,67 @@
+{
+	"campaignId" : "simpleImage",
+	"format" : 1,
+	"assets" : 
+	[
+		{ 	
+			"assetId" : "simpleImage1",
+			"midRollVideoTime" : -1,
+			"backgroundColor" : "#FFFFFF",
+			"isEmptyView" : false,
+			"isScrollView" : false,
+			"isInitialFocus" : true,
+			"url" : "http://pic.58pic.com/58pic/17/41/38/88658PICNuP_1024.jpg",
+			"parentViewTagOrId" : null,
+			"assetType" : 1,
+			"position" : { "width" : -1, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+		}
+	],
+    "actions" : 
+	[
+		{ 	
+			"actionId" : "closeDelayAction",
+			"keycode" : 0,
+			"actionType" : 5,
+			"closeAfterDelay" : 5000,
+			"url" : null,
+			"newPosition" : null,
+			"newAdJson" : null
+		}
+	],
+	"animations" : 
+	[
+		{ 	
+			"animationId" : "rotationAnimation",
+			"name" : "rotationX",
+			"duration" : 1000,
+			"start" : 0,
+			"end" : 90
+		},
+		{ 				
+			"animationId" : "slideAnimation",
+			"name" : "height",
+			"duration" : 1000,
+			"start" : 0,
+			"end" : 1080
+		}
+	],
+	"controls" : 
+	[
+		{ 	
+			"controlId" : "controlId1",
+			"assetId" : null,
+			"actionId" : "closeDelayAction",
+			"animationId" : null
+		}
+	],
+	"adjustedViewDetails" : 
+	[
+		{ 	
+	 		"viewResId" : "adContainer",
+	 		"useParentOfViewResId" : false,
+	 		"useChildOfViewResId" : false,
+	 		"childViewIndex" : -1,
+	 		"newPosition" : { "width" : 700, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+	 	}
+	]
+}

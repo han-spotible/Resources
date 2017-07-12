@@ -1,0 +1,122 @@
+{
+	"campaignId" : "focal",
+	"format" : 4,
+	"assets" : 
+	[
+		{ 	
+			"assetId" : "adScrollView",
+			"midRollVideoTime" : -1,
+			"backgroundColor" : "#FFF",
+			"isEmptyView" : false,
+			"isScrollView" : true,
+			"isInitialFocus" : false,
+			"url" : null,
+			"parentViewTagOrId" : null,
+			"assetType" : 8,
+			"position" : { "width" : -1, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+		},
+		{ 	
+			"assetId" : "assetsContainer",
+			"midRollVideoTime" : -1,
+			"backgroundColor" : "#FFF",
+			"isEmptyView" : true,
+			"isScrollView" : false,
+			"isInitialFocus" : false,
+			"url" : null,
+			"parentViewTagOrId" : "adScrollView",
+			"assetType" : 8,
+			"position" : { "width" : -1, "height" : -2, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+		},
+		{ 	
+			"assetId" : "topImage",
+			"midRollVideoTime" : -1,
+			"backgroundColor" : "#FFF",
+			"isEmptyView" : false,
+			"isScrollView" : false,
+			"isInitialFocus" : true,
+			"url" : "http://img3.redocn.com/tupian/20150430/mantenghuawenmodianshiliangbeijing_3924704.jpg",
+			"parentViewTagOrId" : "assetsContainer",
+			"assetType" : 1,
+			"position" : { "width" : -1, "height" : 200, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+		},
+		{ 	
+			"assetId" : "middleImage",
+			"midRollVideoTime" : -1,
+			"backgroundColor" : "#FFF",
+			"isEmptyView" : false,
+			"isScrollView" : false,
+			"isInitialFocus" : false,
+			"url" : "http://img.zcool.cn/community/01bf1655e514b16ac7251df840273f.jpg",
+			"parentViewTagOrId" : "assetsContainer",
+			"assetType" : 1,
+			"position" : { "width" : -1, "height" : 400, "left" : 0, "right" : 0, "top": 200, "bottom" : 0}
+		},
+		{ 	
+			"assetId" : "bottomImage",
+			"midRollVideoTime" : -1,
+			"backgroundColor" : "#FFF",
+			"isEmptyView" : false,
+			"isScrollView" : false,
+			"isInitialFocus" : false,
+			"url" : "http://pic.58pic.com/58pic/12/03/18/68w58PICjJP.jpg",
+			"parentViewTagOrId" : "assetsContainer",
+			"assetType" : 1,
+			"position" : { "width" : -1, "height" : 200, "left" : 0, "right" : 0, "top": 600, "bottom" : 0}
+		}
+	],
+	"actions" : 
+	[
+		{ 	
+			"actionId" : "closeDelayAction",
+			"keycode" : 0,
+			"actionType" : 5,
+			"closeAfterDelay" : 10000,
+			"url" : null,
+			"newPosition" : null,
+			"newAdJson" : null
+		}
+	],
+	"animations" : 
+	[
+		{ 	
+			"animationId" : "rotationAnimation",
+			"name" : "rotationX",
+			"duration" : 1000,
+			"start" : 0,
+			"end" : 90
+		},
+		{ 				
+			"animationId" : "slideAnimation",
+			"name" : "height",
+			"duration" : 1000,
+			"start" : 0,
+			"end" : 1080
+		}
+	],
+	"controls" : 
+	[
+		{ 	
+			"controlId" : "controlId1",
+			"assetId" : null,
+			"actionId" : "closeDelayAction",
+			"animationId" : null
+		}
+	]//,
+	// "adjustedViewDetails" : 
+	// [
+	// 	{ 	
+	// 		"viewResIdName" : "android_view_res_id_string1",
+	// 		"useParentOfViewResId" : true,
+	// 		"useChildOfViewResId" : false,
+	// 		"childViewIndex" : -1,
+	// 		"newPosition" : { "width" : 320, "height" : 1080, "left" : 1280, "right" : 0, "top": 0, "bottom" : 0}
+	// 	},
+	// 	{ 	
+	// 		"viewResIdName" : "android_view_res_id_string2",
+	// 		"useParentOfViewResId" : false,
+	// 		"useChildOfViewResId" : true,
+	// 		"childViewIndex" : 3,
+	// 		"newPosition" : { "width" : 320, "height" : 1080, "left" : 1280, "right" : 0, "top": 0, "bottom" : 0}
+	// 	}
+	// ]
+}
