@@ -55,10 +55,9 @@
 	"actions" : 
 	[
 		{ 	
-			"actionId" : "closeDelayAction",
+			"actionId" : "closeAction",
 			"keycode" : 0,
 			"actionType" : 5,
-			"closeAfterDelay" : 5000,
 			"url" : null,
 			"newPosition" : null,
 			"newAdJson" : null
@@ -86,7 +85,8 @@
 		{ 	
 			"controlId" : "controlId1",
 			"assetId" : null,
-			"actionId" : "closeDelayAction",
+			"actionDelay" : 5000,
+			"actionId" : "closeAction",
 			"animationId" : null
 		}
 	]//,
