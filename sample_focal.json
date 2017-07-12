@@ -6,7 +6,7 @@
 		{ 	
 			"assetId" : "adScrollView",
 			"midRollVideoTime" : -1,
-			"backgroundColor" : "#FFF",
+			"backgroundColor" : "#FFFFFF",
 			"isEmptyView" : false,
 			"isScrollView" : true,
 			"isInitialFocus" : false,
@@ -18,7 +18,7 @@
 		{ 	
 			"assetId" : "assetsContainer",
 			"midRollVideoTime" : -1,
-			"backgroundColor" : "#FFF",
+			"backgroundColor" : "#FFFFFF",
 			"isEmptyView" : true,
 			"isScrollView" : false,
 			"isInitialFocus" : false,
@@ -30,7 +30,7 @@
 		{ 	
 			"assetId" : "topImage",
 			"midRollVideoTime" : -1,
-			"backgroundColor" : "#FFF",
+			"backgroundColor" : "#FFFFFF",
 			"isEmptyView" : false,
 			"isScrollView" : false,
 			"isInitialFocus" : true,
@@ -42,7 +42,7 @@
 		{ 	
 			"assetId" : "middleImage",
 			"midRollVideoTime" : -1,
-			"backgroundColor" : "#FFF",
+			"backgroundColor" : "#FFFFFF",
 			"isEmptyView" : false,
 			"isScrollView" : false,
 			"isInitialFocus" : false,
@@ -54,7 +54,7 @@
 		{ 	
 			"assetId" : "bottomImage",
 			"midRollVideoTime" : -1,
-			"backgroundColor" : "#FFF",
+			"backgroundColor" : "#FFFFFF",
 			"isEmptyView" : false,
 			"isScrollView" : false,
 			"isInitialFocus" : false,
