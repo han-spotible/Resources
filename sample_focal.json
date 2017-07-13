@@ -69,8 +69,17 @@
 		{ 	
 			"actionId" : "closeAction",
 			"keycode" : 0,
+			"actionType" : 6,
+			"url" : null,
+			"newPosition" : null,
+			"newAdJson" : null
+		},
+		{
+			"actionId" : "changeFocusAction",
+			"keycode" : 20,
 			"actionType" : 5,
 			"url" : null,
+			"newFocusedViewId" : "middleImage",
 			"newPosition" : null,
 			"newAdJson" : null
 		}
@@ -95,10 +104,17 @@
 	"controls" : 
 	[
 		{ 	
-			"controlId" : "controlId1",
+			"controlId" : "closeControl",
 			"assetId" : null,
-			"actionDelay" : 5000,
+			"actionDelay" : -1,
 			"actionId" : "closeAction",
+			"animationId" : null
+		},
+		{
+			"controlId" : "changeFocusControl",
+			"assetId" : "topImage",
+			"actionDelay" : -1,
+			"actionId" : "changeFocusAction",
 			"animationId" : null
 		}
 	]//,
