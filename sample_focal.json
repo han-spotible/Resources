@@ -71,6 +71,7 @@
 			"keycode" : 0,
 			"actionType" : 6,
 			"url" : null,
+			"newFocusedViewId" : null,
 			"newPosition" : null,
 			"newAdJson" : null
 		},
@@ -101,23 +102,8 @@
 			"end" : 1080
 		}
 	],
-	"controls" : 
-	[
-		{ 	
-			"controlId" : "closeControl",
-			"assetId" : null,
-			"actionDelay" : -1,
-			"actionId" : "closeAction",
-			"animationId" : null
-		},
-		{
-			"controlId" : "changeFocusControl",
-			"assetId" : "topImage",
-			"actionDelay" : -1,
-			"actionId" : "changeFocusAction",
-			"animationId" : null
-		}
-	]//,
+	"controls" : null
+	//,
 	// "adjustedViewDetails" : 
 	// [
 	// 	{ 	
