@@ -25,7 +25,16 @@
 			"url" : null,
 			"newFocusedViewId" : null,
 			"newPosition" : null,
-			"newAdJson" : null
+			"newCampaignId" : null
+		},
+		{ 	
+			"actionId" : "newAdAction",
+			"keycode" : 23,
+			"actionType" : 4,
+			"url" : null,
+			"newFocusedViewId" : null,
+			"newPosition" : null,
+			"newCampaignId" : "focal"
 		}
 	],
 	"animations" : 
@@ -51,6 +60,13 @@
 			"controlId" : "closeControl",
 			"assetId" : null,
 			"actionId" : "closeAction",
+			"actionDelay" : -1,
+			"animationId" : null
+		},
+		{ 	
+			"controlId" : "newAdControl",
+			"assetId" : null,
+			"actionId" : "newAdAction",
 			"actionDelay" : 5000,
 			"animationId" : null
 		}
