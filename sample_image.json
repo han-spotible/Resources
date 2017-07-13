@@ -29,7 +29,7 @@
 		},
 		{ 	
 			"actionId" : "newAdAction",
-			"keycode" : 23,
+			"keycode" : 0,
 			"actionType" : 4,
 			"url" : null,
 			"newFocusedViewId" : null,
@@ -67,7 +67,7 @@
 			"controlId" : "newAdControl",
 			"assetId" : null,
 			"actionId" : "newAdAction",
-			"actionDelay" : -1,
+			"actionDelay" : 5000,
 			"animationId" : null
 		}
 	],
