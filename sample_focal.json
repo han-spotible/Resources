@@ -82,7 +82,7 @@
 			"url" : null,
 			"newFocusedViewId" : null,
 			"newPosition" : null,
-			"newCampaignId" : "focal"
+			"newCampaignId" : "simpleImage"
 		},
 		{ 	
 			"actionId" : "newPositionAction",
