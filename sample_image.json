@@ -42,7 +42,7 @@
 			"actionType" : 3,
 			"url" : null,
 			"newFocusedViewId" : null,
-			"newPosition" : {"width" : 1000, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0},
+			"newPosition" : {"width" : 400, "height" : 500, "left" : 0, "right" : 0, "top": 0, "bottom" : 0},
 			"newCampaignId" : null
 		}
 	],
