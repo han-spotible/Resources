@@ -74,15 +74,6 @@
 			"newFocusedViewId" : null,
 			"newPosition" : null,
 			"newAdJson" : null
-		},
-		{
-			"actionId" : "changeFocusAction",
-			"keycode" : 20,
-			"actionType" : 5,
-			"url" : null,
-			"newFocusedViewId" : "middleImage",
-			"newPosition" : null,
-			"newAdJson" : null
 		}
 	],
 	"animations" : 
@@ -102,23 +93,24 @@
 			"end" : 1080
 		}
 	],
-	"controls" : null
-	//,
-	// "adjustedViewDetails" : 
+	"controls" :
+	[
+		{ 	
+			"controlId" : "closeControl",
+			"assetId" : null,
+			"actionDelay" : -1,
+			"actionId" : "closeAction",
+			"animationId" : null
+		}
+	],
+	"adjustedViewDetails" : null
 	// [
 	// 	{ 	
-	// 		"viewResIdName" : "android_view_res_id_string1",
-	// 		"useParentOfViewResId" : true,
+	// 		"viewResIdName" : "adContainer",
+	// 		"useParentOfViewResId" : false,
 	// 		"useChildOfViewResId" : false,
 	// 		"childViewIndex" : -1,
-	// 		"newPosition" : { "width" : 320, "height" : 1080, "left" : 1280, "right" : 0, "top": 0, "bottom" : 0}
-	// 	},
-	// 	{ 	
-	// 		"viewResIdName" : "android_view_res_id_string2",
-	// 		"useParentOfViewResId" : false,
-	// 		"useChildOfViewResId" : true,
-	// 		"childViewIndex" : 3,
-	// 		"newPosition" : { "width" : 320, "height" : 1080, "left" : 1280, "right" : 0, "top": 0, "bottom" : 0}
+	// 		"newPosition" : { "width" : 500, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
 	// 	}
 	// ]
 }
