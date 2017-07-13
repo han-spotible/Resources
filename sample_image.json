@@ -23,6 +23,7 @@
 			"keycode" : 0,
 			"actionType" : 6,
 			"url" : null,
+			"newFocusedViewId" : null,
 			"newPosition" : null,
 			"newAdJson" : null
 		}
