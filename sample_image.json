@@ -44,6 +44,15 @@
 			"newFocusedViewId" : null,
 			"newPosition" : {"width" : 400, "height" : 500, "left" : 0, "right" : 0, "top": 0, "bottom" : 0},
 			"newCampaignId" : null
+		},
+		{ 	
+			"actionId" : "openAction",
+			"keycode" : 21,
+			"actionType" : 2,
+			"url" : "https://www.google.com",
+			"newFocusedViewId" : null,
+			"newPosition" : null,
+			"newCampaignId" : null
 		}
 	],
 	"animations" : 
@@ -83,6 +92,13 @@
 			"controlId" : "newPositionControl",
 			"assetId" : null,
 			"actionId" : "newPositionAction",
+			"actionDelay" : -1,
+			"animationId" : null
+		},
+		{ 	
+			"controlId" : "openControl",
+			"assetId" : null,
+			"actionId" : "openAction",
 			"actionDelay" : -1,
 			"animationId" : null
 		}
