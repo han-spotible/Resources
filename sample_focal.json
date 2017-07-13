@@ -73,7 +73,7 @@
 			"url" : null,
 			"newFocusedViewId" : null,
 			"newPosition" : null,
-			"newAdJson" : null
+			"newCampaignId" : null
 		}
 	],
 	"animations" : 
@@ -98,7 +98,7 @@
 		{ 	
 			"controlId" : "closeControl",
 			"assetId" : null,
-			"actionDelay" : -1,
+			"actionDelay" : 10000,
 			"actionId" : "closeAction",
 			"animationId" : null
 		}
