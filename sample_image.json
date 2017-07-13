@@ -21,7 +21,7 @@
 		{ 	
 			"actionId" : "closeAction",
 			"keycode" : 0,
-			"actionType" : 5,
+			"actionType" : 6,
 			"url" : null,
 			"newPosition" : null,
 			"newAdJson" : null
@@ -47,7 +47,7 @@
 	"controls" : 
 	[
 		{ 	
-			"controlId" : "controlId1",
+			"controlId" : "closeControl",
 			"assetId" : null,
 			"actionId" : "closeAction",
 			"actionDelay" : 5000,
