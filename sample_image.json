@@ -38,7 +38,7 @@
 		},
 		{ 	
 			"actionId" : "newPositionAction",
-			"keycode" : 22,
+			"keycode" : 21,
 			"actionType" : 3,
 			"url" : null,
 			"newFocusedViewId" : null,
@@ -47,9 +47,18 @@
 		},
 		{ 	
 			"actionId" : "openAction",
-			"keycode" : 21,
+			"keycode" : 22,
 			"actionType" : 2,
 			"url" : "https://www.google.com",
+			"newFocusedViewId" : null,
+			"newPosition" : null,
+			"newCampaignId" : null
+		},
+		{ 	
+			"actionId" : "expandAction",
+			"keycode" : 19,
+			"actionType" : 1,
+			"url" : null,
 			"newFocusedViewId" : null,
 			"newPosition" : null,
 			"newCampaignId" : null
@@ -99,6 +108,13 @@
 			"controlId" : "openControl",
 			"assetId" : null,
 			"actionId" : "openAction",
+			"actionDelay" : -1,
+			"animationId" : null
+		},
+		{ 	
+			"controlId" : "expandControl",
+			"assetId" : null,
+			"actionId" : "expandAction",
 			"actionDelay" : -1,
 			"animationId" : null
 		}
