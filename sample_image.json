@@ -13,7 +13,7 @@
 			"url" : "http://pic.58pic.com/58pic/17/41/38/88658PICNuP_1024.jpg",
 			"parentViewTagOrId" : null,
 			"assetType" : 1,
-			"position" : { "width" : -1, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+			"position" : {"width" : -1, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
 		}
 	],
     "actions" : 
@@ -35,6 +35,15 @@
 			"newFocusedViewId" : null,
 			"newPosition" : null,
 			"newCampaignId" : "focal"
+		},
+		{ 	
+			"actionId" : "newPositionAction",
+			"keycode" : 22,
+			"actionType" : 3,
+			"url" : null,
+			"newFocusedViewId" : null,
+			"newPosition" : {"width" : -1, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0},
+			"newCampaignId" : null
 		}
 	],
 	"animations" : 
@@ -69,6 +78,13 @@
 			"actionId" : "newAdAction",
 			"actionDelay" : -1,
 			"animationId" : null
+		},
+		{ 	
+			"controlId" : "newPositionControl",
+			"assetId" : null,
+			"actionId" : "newPositionAction",
+			"actionDelay" : -1,
+			"animationId" : null
 		}
 	],
 	"adjustedViewDetails" : 
@@ -78,7 +94,7 @@
 	 		"useParentOfViewResId" : false,
 	 		"useChildOfViewResId" : false,
 	 		"childViewIndex" : -1,
-	 		"newPosition" : { "width" : 700, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+	 		"newPosition" : {"width" : 700, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
 	 	}
 	]
 }
