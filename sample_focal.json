@@ -82,7 +82,7 @@
 			"url" : null,
 			"newFocusedViewId" : null,
 			"newPosition" : null,
-			"newCampaignId" : "simpleImage"
+			"newCampaignId" : "zipper"
 		},
 		{ 	
 			"actionId" : "newPositionAction",
