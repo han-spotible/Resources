@@ -4,7 +4,7 @@
 	"assets" : 
 	[
 		{ 	
-			"assetId" : "simpleImage1",
+			"assetId" : "simpleImageView",
 			"midRollVideoTime" : -1,
 			"backgroundColor" : "#FFFFFF",
 			"isEmptyView" : false,
@@ -16,7 +16,7 @@
 			"position" : {"width" : -1, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
 		}
 	],
-    "actions" : 
+    	"actions" : 
 	[
 		{ 	
 			"actionId" : "closeAction",
