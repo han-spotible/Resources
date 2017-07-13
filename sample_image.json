@@ -67,7 +67,7 @@
 			"controlId" : "newAdControl",
 			"assetId" : null,
 			"actionId" : "newAdAction",
-			"actionDelay" : 5000,
+			"actionDelay" : -1,
 			"animationId" : null
 		}
 	],
