@@ -68,7 +68,7 @@
 	[
 		{ 	
 			"actionId" : "closeAction",
-			"keycode" : 0,
+			"keycode" : 7,
 			"actionType" : 6,
 			"url" : null,
 			"newFocusedViewId" : null,
@@ -77,7 +77,7 @@
 		},
 		{ 	
 			"actionId" : "newAdAction",
-			"keycode" : 66,
+			"keycode" : 8,
 			"actionType" : 4,
 			"url" : null,
 			"newFocusedViewId" : null,
@@ -86,7 +86,7 @@
 		},
 		{ 	
 			"actionId" : "newPositionAction",
-			"keycode" : 21,
+			"keycode" : 9,
 			"actionType" : 3,
 			"url" : null,
 			"newFocusedViewId" : null,
@@ -95,7 +95,7 @@
 		},
 		{ 	
 			"actionId" : "openAction",
-			"keycode" : 22,
+			"keycode" : 10,
 			"actionType" : 2,
 			"url" : "https://www.google.com",
 			"newFocusedViewId" : null,
@@ -104,7 +104,7 @@
 		},
 		{ 	
 			"actionId" : "expandAction",
-			"keycode" : 19,
+			"keycode" : 11,
 			"actionType" : 1,
 			"url" : null,
 			"newFocusedViewId" : null,
@@ -134,7 +134,7 @@
 		{ 	
 			"controlId" : "closeControl",
 			"assetId" : null,
-			"actionDelay" : 10000,
+			"actionDelay" : -1,
 			"actionId" : "closeAction",
 			"animationId" : null
 		},
