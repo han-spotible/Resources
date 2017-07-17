@@ -20,7 +20,7 @@
 	[
 		{ 	
 			"actionId" : "closeAction",
-			"keycode" : 0, // keycode 0 is unknown
+			"keycode" : 7,
 			"actionType" : 6,
 			"url" : null,
 			"newFocusedViewId" : null,
@@ -87,7 +87,7 @@
 			"controlId" : "closeControl",
 			"assetId" : null,
 			"actionId" : "closeAction",
-			"actionDelay" : 10000,
+			"actionDelay" : -1,
 			"animationId" : null
 		},
 		{ 	
