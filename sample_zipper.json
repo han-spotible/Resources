@@ -63,7 +63,7 @@
 			"newPosition" : null,
 			"newCampaignId" : null
 		},
-				{ 	
+		{ 	
 			"actionId" : "newAdAction",
 			"keycode" : 8,
 			"actionType" : 4,
