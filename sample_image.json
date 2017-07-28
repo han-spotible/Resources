@@ -5,10 +5,10 @@
 	[
 		{ 	
 			"assetId" : "simpleImageView",
+			"text" : null,
 			"midRollVideoTime" : -1,
 			"backgroundColor" : "#FFFFFF",
-			"isEmptyView" : false,
-			"isScrollView" : false,
+			"focusable" : true,
 			"isInitialFocus" : true,
 			"url" : "http://pic.58pic.com/58pic/17/41/38/88658PICNuP_1024.jpg",
 			"parentViewTagOrId" : null,
@@ -16,52 +16,62 @@
 			"position" : {"width" : -1, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
 		}
 	],
-    	"actions" : 
+    "actions" : 
 	[
 		{ 	
 			"actionId" : "closeAction",
 			"keycode" : 7,
 			"actionType" : 6,
 			"url" : null,
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : null,
-			"newCampaignId" : null
+			"newCampaignId" : null,
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		},
 		{ 	
 			"actionId" : "newAdAction",
 			"keycode" : 8,
 			"actionType" : 4,
 			"url" : null,
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : null,
-			"newCampaignId" : "focal"
+			"newCampaignId" : "focal",
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		},
 		{ 	
 			"actionId" : "newPositionAction",
 			"keycode" : 9,
 			"actionType" : 3,
 			"url" : null,
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : {"width" : 400, "height" : 500, "left" : 0, "right" : 0, "top": 0, "bottom" : 0},
-			"newCampaignId" : null
+			"newCampaignId" : null,
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		},
 		{ 	
 			"actionId" : "openAction",
 			"keycode" : 10,
 			"actionType" : 2,
 			"url" : "https://www.google.com",
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : null,
-			"newCampaignId" : null
+			"newCampaignId" : null,
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		},
 		{ 	
 			"actionId" : "expandAction",
 			"keycode" : 11,
 			"actionType" : 1,
 			"url" : null,
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : null,
-			"newCampaignId" : null
+			"newCampaignId" : null,
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		}
 	],
 	"animations" : 
@@ -88,35 +98,40 @@
 			"assetId" : null,
 			"actionId" : "closeAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		},
 		{ 	
 			"controlId" : "newAdControl",
 			"assetId" : null,
 			"actionId" : "newAdAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		},
 		{ 	
 			"controlId" : "newPositionControl",
 			"assetId" : null,
 			"actionId" : "newPositionAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		},
 		{ 	
 			"controlId" : "openControl",
 			"assetId" : null,
 			"actionId" : "openAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		},
 		{ 	
 			"controlId" : "expandControl",
 			"assetId" : null,
 			"actionId" : "expandAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		}
 	],
 	"adjustedViewDetails" : 

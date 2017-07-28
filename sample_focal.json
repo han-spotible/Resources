@@ -1,125 +1,135 @@
 {
 	"campaignId" : "focal",
-	"format" : 4,
+	"format" : 4, // (format is from 1 to 8, including image, video, zipper, focal, flipBook, git, html and etc)
 	"assets" : 
 	[
 		{ 	
-			"assetId" : "adScrollView",
-			"midRollVideoTime" : -1,
+			"assetId" : "adScrollView", // asset id will also be used as view tag in android
+			"text" : null, // text string for text asset type
+			"midRollVideoTime" : -1, // for midroll video asset only, determines when the midroll video will be displayed
 			"backgroundColor" : "#FFFFFF",
-			"isEmptyView" : false,
-			"isScrollView" : true,
-			"isInitialFocus" : false,
-			"url" : null,
-			"parentViewTagOrId" : null,
-			"assetType" : 8,
-			"position" : { "width" : -1, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+			"focusable" : false, // boolean determines if this asset is focusable (useful if a designer needs to put a placeholder view)
+			"isInitialFocus" : false, // determines which asset should be focused when ad created
+			"url" : null, // url for image/video ad
+			"parentViewTagOrId" : null, // the parent view tag or id for this asset, if null then the asset will be put in default parent
+			"assetType" : 9, // asset type (from 1 to 9, including image, pre/mid/post roll video, regular video, gif, html, text and etc)
+			"position" : {"width" : -1, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
 		},
 		{ 	
 			"assetId" : "assetsContainer",
+			"text" : null,
 			"midRollVideoTime" : -1,
 			"backgroundColor" : "#FFFFFF",
-			"isEmptyView" : true,
-			"isScrollView" : false,
+			"focusable" : false,
 			"isInitialFocus" : false,
 			"url" : null,
 			"parentViewTagOrId" : "adScrollView",
-			"assetType" : 8,
-			"position" : { "width" : -1, "height" : -2, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+			"assetType" : 10,
+			"position" : {"width" : -1, "height" : -2, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
 		},
 		{ 	
 			"assetId" : "topImage",
+			"text" : null,
 			"midRollVideoTime" : -1,
 			"backgroundColor" : "#FFFFFF",
-			"isEmptyView" : false,
-			"isScrollView" : false,
+			"focusable" : true,
 			"isInitialFocus" : true,
 			"url" : "http://img3.redocn.com/tupian/20150430/mantenghuawenmodianshiliangbeijing_3924704.jpg",
 			"parentViewTagOrId" : "assetsContainer",
 			"assetType" : 1,
-			"position" : { "width" : -1, "height" : 200, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+			"position" : {"width" : -1, "height" : 200, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
 		},
 		{ 	
 			"assetId" : "middleImage",
+			"text" : null,
 			"midRollVideoTime" : -1,
 			"backgroundColor" : "#FFFFFF",
-			"isEmptyView" : false,
-			"isScrollView" : false,
+			"focusable" : true,
 			"isInitialFocus" : false,
 			"url" : "http://img.zcool.cn/community/01bf1655e514b16ac7251df840273f.jpg",
 			"parentViewTagOrId" : "assetsContainer",
 			"assetType" : 1,
-			"position" : { "width" : -1, "height" : 400, "left" : 0, "right" : 0, "top": 200, "bottom" : 0}
+			"position" : {"width" : -1, "height" : 400, "left" : 0, "right" : 0, "top": 200, "bottom" : 0}
 		},
 		{ 	
 			"assetId" : "bottomImage",
+			"text" : null,
 			"midRollVideoTime" : -1,
 			"backgroundColor" : "#FFFFFF",
-			"isEmptyView" : false,
-			"isScrollView" : false,
+			"focusable" : true,
 			"isInitialFocus" : false,
 			"url" : "http://pic.58pic.com/58pic/12/03/18/68w58PICjJP.jpg",
 			"parentViewTagOrId" : "assetsContainer",
 			"assetType" : 1,
-			"position" : { "width" : -1, "height" : 200, "left" : 0, "right" : 0, "top": 600, "bottom" : 0}
+			"position" : {"width" : -1, "height" : 200, "left" : 0, "right" : 0, "top": 600, "bottom" : 0}
 		}
 	],
 	"actions" : 
 	[
 		{ 	
 			"actionId" : "closeAction",
-			"keycode" : 7,
-			"actionType" : 6,
-			"url" : null,
-			"newFocusedViewId" : null,
-			"newPosition" : null,
-			"newCampaignId" : null
+			"keycode" : 7, // Android KeyEvent KeyCode (for details look at android.view.KeyEvent keycode constants)
+			"actionType" : 6, // action type (ranged from 1 to 9)
+			"url" : null, // url for opening action
+			"newFocusedViewIdOrTag" : null, // new focused view id or tag string for changing focus action
+			"newPosition" : null, // new position json for new position action
+			"newCampaignId" : null, // new campaign id for new ad action
+			"runJavascript" : null, // javascript string for webview asset type to run
+			"changeVisibility" : -1 // changing an asset's visibility (0=visible, 1=invisible, 2=gone)
 		},
 		{ 	
 			"actionId" : "newAdAction",
 			"keycode" : 8,
 			"actionType" : 4,
 			"url" : null,
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : null,
-			"newCampaignId" : "zipper"
+			"newCampaignId" : "zipper",
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		},
 		{ 	
 			"actionId" : "newPositionAction",
 			"keycode" : 9,
 			"actionType" : 3,
 			"url" : null,
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : {"width" : 400, "height" : 500, "left" : 0, "right" : 0, "top": 0, "bottom" : 0},
-			"newCampaignId" : null
+			"newCampaignId" : null,
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		},
 		{ 	
 			"actionId" : "openAction",
 			"keycode" : 10,
 			"actionType" : 2,
 			"url" : "https://www.google.com",
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : null,
-			"newCampaignId" : null
+			"newCampaignId" : null,
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		},
 		{ 	
 			"actionId" : "expandAction",
 			"keycode" : 11,
 			"actionType" : 1,
 			"url" : null,
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : null,
-			"newCampaignId" : null
+			"newCampaignId" : null,
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		}
 	],
 	"animations" : 
 	[
 		{ 	
 			"animationId" : "rotationAnimation",
-			"name" : "rotationX",
-			"duration" : 1000,
-			"start" : 0,
-			"end" : 90
+			"name" : "rotationX", // animation name in Android Properties list
+			"duration" : 1000, // duration is in milliseconds
+			"start" : 0, // start value of animation (varies base on animation name)
+			"end" : 90 // end value of animation (varies base on animation name)
 		},
 		{ 				
 			"animationId" : "slideAnimation",
@@ -133,48 +143,53 @@
 	[
 		{ 	
 			"controlId" : "closeControl",
-			"assetId" : null,
-			"actionDelay" : -1,
-			"actionId" : "closeAction",
-			"animationId" : null
+			"assetId" : null, // determines which asset should be applied with this control
+			"actionDelay" : -1, // determines if the action should be applied after certain aamount of time after ad loaded (typical usage will be close action after 5 seconds)
+			"actionId" : "closeAction", // which action to be applied
+			"animationId" : null, // which animation should be used (can be null)
+			"removeAfterDone" : false // determines if this control should be removed after applied (i.e apply a specific action only once)
 		},
 		{ 	
 			"controlId" : "newAdControl",
 			"assetId" : null,
 			"actionId" : "newAdAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		},
 		{ 	
 			"controlId" : "newPositionControl",
 			"assetId" : null,
 			"actionId" : "newPositionAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		},
 		{ 	
 			"controlId" : "openControl",
 			"assetId" : null,
 			"actionId" : "openAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		},
 		{ 	
 			"controlId" : "expandControl",
 			"assetId" : null,
 			"actionId" : "expandAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		}
 	],
 	"adjustedViewDetails" : null
 	// [
 	// 	{ 	
-	// 		"viewResIdName" : "adContainer",
-	// 		"useParentOfViewResId" : false,
-	// 		"useChildOfViewResId" : false,
-	// 		"childViewIndex" : -1,
-	// 		"newPosition" : { "width" : 500, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+	// 		"viewResId" : "adContainer",
+	// 		"useParentOfViewResId" : false, // if a view does not have an id but one of its child view has an id, then use this boolean to tell the sdk that use the parent view of the given view id
+	// 		"useChildOfViewResId" : false, // similar as above, the view does not have an id but its parent has a id; use the parent view id to find the desired child view using childViewIndex value below
+	// 		"childViewIndex" : -1, // the index of child view if useChildOfViewResId=true
+	// 		"newPosition" : {"width" : 500, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
 	// 	}
 	// ]
 }

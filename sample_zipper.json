@@ -5,51 +5,51 @@
 	[
 		{ 	
 			"assetId" : "leftEdge",
+			"text" : null,
 			"midRollVideoTime" : -1,
 			"backgroundColor" : "#FFFFFF",
-			"isEmptyView" : false,
-			"isScrollView" : false,
+			"focusable" : true,
 			"isInitialFocus" : false,
 			"url" : "http://pic.58pic.com/58pic/17/41/38/88658PICNuP_1024.jpg",
 			"parentViewTagOrId" : null,
 			"assetType" : 1,
-			"position" : { "width" : 320, "height" : 1080, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+			"position" : {"width" : 320, "height" : 1080, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
 		},
 		{ 	
 			"assetId" : "middleLeft",
+			"text" : null,
 			"midRollVideoTime" : -1,
 			"backgroundColor" : "#FFFFFF",
-			"isEmptyView" : false,
-			"isScrollView" : false,
+			"focusable" : true,
 			"isInitialFocus" : true,
 			"url" : "http://img3.redocn.com/tupian/20150430/mantenghuawenmodianshiliangbeijing_3924704.jpg",
 			"parentViewTagOrId" : null,
 			"assetType" : 1,
-			"position" : { "width" : 640, "height" : 1080, "left" : 320, "right" : 0, "top": 0, "bottom" : 0}
+			"position" : {"width" : 640, "height" : 1080, "left" : 320, "right" : 0, "top": 0, "bottom" : 0}
 		},
 		{ 	
 			"assetId" : "middleRight",
+			"text" : null,
 			"midRollVideoTime" : -1,
 			"backgroundColor" : "#FFFFFF",
-			"isEmptyView" : false,
-			"isScrollView" : false,
+			"focusable" : true,
 			"isInitialFocus" : false,
 			"url" : "http://img.zcool.cn/community/01bf1655e514b16ac7251df840273f.jpg",
 			"parentViewTagOrId" : null,
 			"assetType" : 1,
-			"position" : { "width" : 640, "height" : 1080, "left" : 960, "right" : 0, "top": 0, "bottom" : 0}
+			"position" : {"width" : 640, "height" : 1080, "left" : 960, "right" : 0, "top": 0, "bottom" : 0}
 		},
 		{ 	
 			"assetId" : "rightEdge",
+			"text" : null,
 			"midRollVideoTime" : -1,
 			"backgroundColor" : "#FFFFFF",
-			"isEmptyView" : false,
-			"isScrollView" : false,
+			"focusable" : true,
 			"isInitialFocus" : false,
 			"url" : "http://pic.58pic.com/58pic/12/03/18/68w58PICjJP.jpg",
 			"parentViewTagOrId" : null,
 			"assetType" : 1,
-			"position" : { "width" : 320, "height" : 1080, "left" : 1600, "right" : 0, "top": 0, "bottom" : 0}
+			"position" : {"width" : 320, "height" : 1080, "left" : 1600, "right" : 0, "top": 0, "bottom" : 0}
 		}
 	],
 	"actions" : 
@@ -59,45 +59,55 @@
 			"keycode" : 7,
 			"actionType" : 6,
 			"url" : null,
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : null,
-			"newCampaignId" : null
+			"newCampaignId" : null,
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		},
 		{ 	
 			"actionId" : "newAdAction",
 			"keycode" : 8,
 			"actionType" : 4,
 			"url" : null,
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : null,
-			"newCampaignId" : "focal"
+			"newCampaignId" : "focal",
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		},
 		{ 	
 			"actionId" : "newPositionAction",
 			"keycode" : 9,
 			"actionType" : 3,
 			"url" : null,
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : {"width" : 400, "height" : 500, "left" : 0, "right" : 0, "top": 0, "bottom" : 0},
-			"newCampaignId" : null
+			"newCampaignId" : null,
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		},
 		{ 	
 			"actionId" : "openAction",
 			"keycode" : 10,
 			"actionType" : 2,
 			"url" : "https://www.google.com",
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : null,
-			"newCampaignId" : null
+			"newCampaignId" : null,
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		},
 		{ 	
 			"actionId" : "expandAction",
 			"keycode" : 11,
 			"actionType" : 1,
 			"url" : null,
-			"newFocusedViewId" : null,
+			"newFocusedViewIdOrTag" : null,
 			"newPosition" : null,
-			"newCampaignId" : null
+			"newCampaignId" : null,
+			"runJavascript" : null,
+			"changeVisibility" : -1
 		}
 	],
 	"animations" : 
@@ -124,45 +134,50 @@
 			"assetId" : null,
 			"actionDelay" : -1,
 			"actionId" : "closeAction",
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		},
 		{ 	
 			"controlId" : "newAdControl",
 			"assetId" : null,
 			"actionId" : "newAdAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		},
 		{ 	
 			"controlId" : "newPositionControl",
 			"assetId" : null,
 			"actionId" : "newPositionAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		},
 		{ 	
 			"controlId" : "openControl",
 			"assetId" : null,
 			"actionId" : "openAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		},
 		{ 	
 			"controlId" : "expandControl",
 			"assetId" : null,
 			"actionId" : "expandAction",
 			"actionDelay" : -1,
-			"animationId" : null
+			"animationId" : null,
+			"removeAfterDone" : false
 		}
 	],
 	"adjustedViewDetails" : null
 	// [
 	// 	{ 	
-	// 		"viewResIdName" : "adContainer",
+	// 		"viewResId" : "adContainer",
 	// 		"useParentOfViewResId" : false,
 	// 		"useChildOfViewResId" : false,
 	// 		"childViewIndex" : -1,
-	// 		"newPosition" : { "width" : 700, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
+	// 		"newPosition" : {"width" : 700, "height" : -1, "left" : 0, "right" : 0, "top": 0, "bottom" : 0}
 	// 	}
 	// ]
 }
